@@ -1,0 +1,22 @@
+# Ignore everything by default.
+/*
+
+# Always keep the ignore file itself.
+!.gitignore
+
+# Keep project entry point.
+!README.md
+
+# Keep exported figures / screenshots.
+!assets/
+!assets/**
+
+# Keep release artifacts (if any).
+!release/
+!release/**
+
+# Keep notes (solutions live here).
+!学习进度/
+学习进度/*
+!学习进度/note/
+!学习进度/note/**
